@@ -19,6 +19,7 @@
 
 header {
     background-color: var(--cor0);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
 }
 
 header h1 {
@@ -27,14 +28,26 @@ header h1 {
     font-weight: bold;
     text-align: center;
     padding: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
 }
 
 header nav {
     background-color: white;
     padding: 15px;
+    text-align: center;
 }
 
 header > nav > a {
+    font-family: var(--font-texto); 
     color: var(--cor4);
-    
+    font-size: 14px;  
+    padding: 10px;
+    font-weight: normal;
+    text-decoration: none;
 }
+
+header > nav > a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
