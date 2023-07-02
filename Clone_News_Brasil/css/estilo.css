@@ -37,18 +37,22 @@ header nav {
     text-indent: 8.3%;
 }
 
-header > nav > a {
-    font-family: var(--font-texto); 
+header>nav>a {
+    font-family: var(--font-texto);
     color: var(--cor4);
-    font-size: 14px;  
+    font-size: 14px;
     padding: 10px;
     font-weight: normal;
     text-decoration: none;
 }
 
-header > nav > a:hover {
+header>nav>a:hover {
     text-decoration: underline;
     color: var(--cor2);
+}
+
+section {
+    padding: 10px;
 }
 
 main {
@@ -60,15 +64,40 @@ article {
     margin: auto;
 }
 
-section {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
+main>article>section>a {
+    color: black;
+    font-size: 30px;
+}
+
+main>article>section>a:hover {
+    text-decoration: underline;
+}
+
+main>article>section>div>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+main>article>section>div>a:hover {
+    text-decoration: underline;
 }
 
 
-.img1{
-        float: left;
-        border: transparent thin solid;
-        padding: 5px;
-        margin: 0px 10px 10px 0;
-    }
+.img1 {
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+p {
+    font-family: var(--font-texto);
+    text-align: justify;
+    padding: 15px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
