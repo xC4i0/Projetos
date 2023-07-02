@@ -20,6 +20,7 @@
 
 header {
     background-image: linear-gradient(to left, var(--cor3), var(--cor1));
+    min-height: 100px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
 }
 
@@ -58,9 +59,9 @@ body {
 
 main {
     background-color: white;
-    min-width: 500px;
+    min-width: 320px;
     max-width: 1100px;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
 }
 
