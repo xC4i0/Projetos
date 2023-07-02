@@ -65,10 +65,10 @@ section {
     padding: 10px;
 }
 
-img {
-    position: static;
-    display: inline-block;
-}
 
-
-
+.img1{
+        float: left;
+        border: transparent thin solid;
+        padding: 5px;
+        margin: 0px 10px 10px 0;
+    }
