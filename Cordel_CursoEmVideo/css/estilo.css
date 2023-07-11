@@ -6,20 +6,19 @@
 .cabecalho {
     background-color: black;
     padding-top: 5%;
-    padding-bottom: 3%;
 }
-
 
 .titulo {
     color: white;
     font-family: 'Passion One';
-    font-weight: normal;
+    font-variant: small-caps;
     text-align: center;
-    font-size: 19vh;
+    font-size: 10vw;
 }
 
 .direito-autoral {
     color: white;
+    padding-bottom: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: center;
@@ -35,21 +34,18 @@ header > p > a:hover {
     text-decoration: underline;
 }
 
-body {
-    height: 100vh;
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
 }
 
-main {
+section {
     font-family: 'Sriracha', cursive;
-    font-size: 7vh;
-    line-height: 150px;
-
-}
-
-section > p {
-    padding-left: 2%;
-    padding-top: 2%;
-    padding-bottom: 9%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 2em;
+    padding-left: 3%;
+    font-size: 3.5vw;
 }
 
 section.imagem-de-fundo > p {
@@ -57,7 +53,6 @@ section.imagem-de-fundo > p {
     padding: 1.5%;
     background-color: rgba(0, 0, 0, 0.281);
     text-shadow: 2px 2px black;
-    background-size: 100%;
 }
 
 section.imagem-de-fundo2 > p {
@@ -65,7 +60,6 @@ section.imagem-de-fundo2 > p {
     padding: 1.5%;
     background-color: rgba(0, 0, 0, 0.281);
     text-shadow: 2px 2px black;
-    background-size: 100%;
 }
 
 .padrao {
@@ -94,7 +88,7 @@ section.imagem-de-fundo2 > p {
 
 footer {
     background-color: black;
-    padding: 0.5%;
+    padding: 1%;
 }
 
 .rodape {
