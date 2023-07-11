@@ -32,26 +32,18 @@ personagens.forEach((personagem) => {
 
         // passo 3 - verificar se já exista um personagem selecionado, se sim, devemos remover a seleção dele 
 
-       const personagemSelecinado =  document.querySelector('.selecionado');
-       personagemSelecinado.classList.remove('selecionado')
+       removerSelecaoDoPersonagem();
        
        personagem.classList.add('selecionado');
 
     // OBJETIVO 2 - quando passar o mouse em cima do personagem na listagem, trocar a imagem, o nome e a descrição do personagem grande
 
     // passo 1 - pegar o elemento do personagem grande pra adicionar as informações nele
-
-    const imagemPersonagemGrande = document.querySelector('.personagem-grande');
-    
-    // passo 2 - alterar a imagem do personagem grande 
-
-    const idPersonagem = personagem.attributes.id.value;
-    imagemPersonagemGrande.src = `imagens/card-${idPersonagem}.png`;
+    alterarImagemPersonagemSelecionado(personagem);
 
     // passo 3 - alterar o nome do personagem grande
 
     const nomePersonagem = document.getElementById('nome-personagem');
-
     nomePersonagem.innerText = personagem.getAttribute('data-name');
 
     // passo 4 - alterar a descrição do personagem grande */ 
@@ -61,3 +53,15 @@ personagens.forEach((personagem) => {
     descricaoPersonagem.innerText = personagem.getAttribute('data-description');
     })
 })
+function alterarImagemPersonagemSelecionado(personagem) {
+    const imagemPersonagemGrande = document.querySelector('.personagem-grande');
+    // passo 2 - alterar a imagem do personagem grande 
+    const idPersonagem = personagem.attributes.id.value;
+    imagemPersonagemGrande.src = `imagens/card-${idPersonagem}.png`;
+}
+
+function removerSelecaoDoPersonagem() {
+    const personagemSelecinado = document.querySelector('.selecionado');
+    personagemSelecinado.classList.remove('selecionado');
+}
+
