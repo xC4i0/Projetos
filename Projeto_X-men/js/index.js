@@ -43,16 +43,23 @@ personagens.forEach((personagem) => {
 
     // passo 3 - alterar o nome do personagem grande
 
-    const nomePersonagem = document.getElementById('nome-personagem');
-    nomePersonagem.innerText = personagem.getAttribute('data-name');
+    alterarNomePersoanagemSelecionado(personagem);
 
     // passo 4 - alterar a descrição do personagem grande */ 
 
-    const descricaoPersonagem = document.getElementById('descricao-personagem');
-
-    descricaoPersonagem.innerText = personagem.getAttribute('data-description');
+    alterarDescricaoPersonagem(personagem);
     })
 })
+function alterarDescricaoPersonagem(personagem) {
+    const descricaoPersonagem = document.getElementById('descricao-personagem');
+    descricaoPersonagem.innerText = personagem.getAttribute('data-description');
+}
+
+function alterarNomePersoanagemSelecionado(personagem) {
+    const nomePersonagem = document.getElementById('nome-personagem');
+    nomePersonagem.innerText = personagem.getAttribute('data-name');
+}
+
 function alterarImagemPersonagemSelecionado(personagem) {
     const imagemPersonagemGrande = document.querySelector('.personagem-grande');
     // passo 2 - alterar a imagem do personagem grande 
