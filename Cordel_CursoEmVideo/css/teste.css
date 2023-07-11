@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+.cabecalho {
+    background-color: black;
+    padding-top: 5%; /* Alterado para unidade relativa */
+    padding-bottom: 3%; /* Alterado para unidade relativa */
+}
+
+
+.titulo {
+    color: white;
+    font-family: 'Passion One';
+    font-weight: normal;
+    text-align: center;
+    font-size: 30vh; /* Alterado para unidade relativa */
+}
+
+.direito-autoral {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.35vh; /* Alterado para unidade relativa */
+    text-align: center;
+}
+
+.direito-autoral a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: 'Sriracha', cursive;
+    font-size: 4vh; /* Alterado para unidade relativa */
+    line-height: 100px;
+
+}
+
+section > p {
+    padding-left: 2%; /* Alterado para unidade relativa */
+    padding-top: 2%; /* Alterado para unidade relativa */
+    padding-bottom: 9%; /* Alterado para unidade relativa */
+}
+
+section.imagem-de-fundo > p {
+    display: inline-block;
+    padding: 1.5%; /* Alterado para unidade relativa */
+    background-color: rgba(0, 0, 0, 0.281);
+    text-shadow: 2px 2px black;
+}
+
+section.imagem-de-fundo2 > p {
+    display: inline-block;
+    padding: 1.5%; /* Alterado para unidade relativa */
+    background-color: rgba(0, 0, 0, 0.281);
+    text-shadow: 2px 2px black;
+}
+
+.padrao {
+    padding-left: 2%; /* Alterado para unidade relativa */
+}
+
+.imagem-de-fundo {
+    padding-left: 3.5%; /* Alterado para unidade relativa */
+    color: white;
+    background-image: url(../img/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagem-de-fundo2 {
+    padding-left: 3.5%; /* Alterado para unidade relativa */
+    color: white;
+    background-image: url(../img/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    padding: 0.5%; /* Alterado para unidade relativa */
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+}
+
+.rodape a {
+    color: rgb(15, 228, 33);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 5vh; /* Altere o tamanho da fonte para telas menores */
+    }
+
+    .direito-autoral {
+        font-size: 1.2vh; /* Altere o tamanho da fonte para telas menores */
+    }
+
+    main {
+        font-size: 3vh; /* Altere o tamanho da fonte para telas menores */
+    }
+
+    section > p {
+        padding-left: 5%; /* Altere o espaçamento para telas menores */
+        padding-top: 5%; /* Altere o espaçamento para telas menores */
+        padding-bottom: 10%; /* Altere o espaçamento para telas menores */
+    }
+
+    section.imagem-de-fundo > p,
+    section.imagem-de-fundo2 > p {
+        padding: 1%; /* Altere o espaçamento para telas menores */
+    }
+
+    .padrao {
+        padding-left: 5%; /* Altere o espaçamento para telas menores */
+    }
+
+    .imagem-de-fundo,
+    .imagem-de-fundo2 {
+        padding-left: 5%; /* Altere o espaçamento para telas menores */
+    }
+}
