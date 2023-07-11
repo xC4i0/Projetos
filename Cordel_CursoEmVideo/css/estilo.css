@@ -70,7 +70,7 @@ section.imagem-de-fundo2 > p {
     padding-left: 3.5%;
     color: white;
     background-image: url(../img/background001.jpg);
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -80,7 +80,7 @@ section.imagem-de-fundo2 > p {
     padding-left: 3.5%;
     color: white;
     background-image: url(../img/background002.jpg);
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
