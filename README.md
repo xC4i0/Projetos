@@ -1,4 +1,5 @@
 # Projetos Pessoais e Realizados em aulas. :alien:
+
 *Esta pasta de projetos será utilizada para armazenar os sites que eu mesmo desenvolvi, assim como aqueles criados durante as aulas como exercícios acompanhados pelo professor. Pretendo utilizá-la como material de estudo, e aqui estão alguns dos projetos já concluídos.*
 
 ## :bookmark_tabs: Projeto Cordel 
