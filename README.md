@@ -1,5 +1,9 @@
 # Projetos Pessoais e Realizados em aulas. :alien:
 
+<div> <a href="https://www.instagram.com/cai0.dev/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Icone do intagram"> <a href="https://www.linkedin.com/in/caio-carmo-174802269/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Icone do Linkedin"></a></a></div>
+
+
+
 *Esta pasta de projetos será utilizada para armazenar os sites que eu mesmo desenvolvi, assim como aqueles criados durante as aulas como exercícios acompanhados pelo professor. Pretendo utilizá-la como material de estudo, e aqui estão alguns dos projetos já concluídos.*
 
 ## :bookmark_tabs: Projeto Cordel 
