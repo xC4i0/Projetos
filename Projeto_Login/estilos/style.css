@@ -1,11 +1,35 @@
 @charset "UTF-8";
 
-/* 
-Paleta de Cores
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
-#191E29 -> Azul escuro
-#132D46 -> Azul meio escuro
-#01C38E -> Verdinha agua
-#696E79 -> Cinza
-#ffffff -> Branco
- */
+:root {
+    --cor1: #191E29;
+    --cor2: #132D46;
+    --cor3: #01C38E;
+    --cor4: #696E79;
+    --cor5: #ffffff;
+
+    --padrao: 'Open Sans', sans-serif;
+}
+
+
+body {
+    background-color: var(--cor2);
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#login {
+    width: 370px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
