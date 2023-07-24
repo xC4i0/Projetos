@@ -14,7 +14,7 @@
 
 
 body {
-    background-color: var(--cor2);
+    background-color: var(--cor4);
 }
 
 main {
@@ -23,13 +23,112 @@ main {
 }
 
 section#login {
-    width: 370px;
-    height: 700px;
+    width: 260px;
+    height: 540px;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.158);
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+div#imagem {
+    background-color: #191E29;
+    background: var(--cor1) url(../img/wallpaper.jpg) center center no-repeat fixed;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 40%;
+}
+
+div#formulario>h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px;
+}
+
+section>div#formulario>p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+
+
+input {
+    height: 30px;
+    border-radius: 6px;
+    background-color: var(--cor3);
+    padding-left: 1.2px;
+    border: none;
+}
+
+.email {
+    background-color: var(--cor4);
+    width: 230px;
+    text-align: right;
+    border-radius: 5px;
+    padding: 3.5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.senha {
+    background-color: var(--cor4);
+    width: 230px;
+    text-align: right;
+    border-radius: 5px;
+    padding: 3.5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+div {
+    position: relative;
+
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    top: -20%;
+    left: 10%;
+    transform: translate(-20%, 20%);
+    color: white;
+}
+
+.entrar > p > input {
+   background: none;
+   color: white;
+}
+
+.entrar:hover {
+    background-color: var(--cor2);
+}
+
+.entrar {
+    background-color: var(--cor1);
+    width: 230px;
+    text-align: center;
+    border: none;
+    margin: auto;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+
+div a {
+    display: block;
+    text-decoration: none;
+    color: var(--cor1);
+    width: 230px;
+    padding-bottom: 5px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
+}
+
+div a:hover {
+    background-color: var(--cor3);
 }
