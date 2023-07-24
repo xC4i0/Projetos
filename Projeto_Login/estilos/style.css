@@ -41,6 +41,7 @@ section#login {
 div#imagem {
     background-color: #191E29;
     background: var(--cor1) url(../img/wallpaper.jpg) center center no-repeat fixed;
+    background-size: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 40%;
