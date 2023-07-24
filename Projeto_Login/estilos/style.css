@@ -30,7 +30,7 @@ section#login {
     height: 540px;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.158);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
 
     position: absolute;
     top: 50%;
