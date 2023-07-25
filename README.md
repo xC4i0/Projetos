@@ -35,6 +35,31 @@
 
 
 
-<a href="https://xc4i0.github.io/Projetos/Projeto_Social/"> Executar Projeto SOCIAL
+## Projeto Rede Social
+![capa](https://github.com/xC4i0/Projetos/assets/128866704/d328150e-9bb5-4916-8a88-379adada99ea)
+### &#x270D;Descrção
+---
+*Neste projeto, desenvolvi junto com as aulas do curso em vídeo. Durante esse mini projeto, aprendi sobre como trabalhar com iframes e também sobre o posicionamento de elementos. Durante o desenvolvimento do projeto, o professor explicou e ensinou as técnicas necessárias para manipular iframes e posicionar elementos na página.*
 
-<a href="https://xc4i0.github.io/Projetos/Projeto_Login/"> Executar Projeto LOGIN
+*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Projeto_Social/"> Executar Projeto SOCIAL*
+---
+
+
+#### As linguagens utilizadas no projeto foram: 
+* HTML
+* CSS
+
+## Projeto Login
+![Desktop](https://github.com/xC4i0/Projetos/assets/128866704/fd60f1d3-76e8-482f-8497-b277f4e126fc)
+### &#x270D;Descrção
+---
+*Esse projeto foi realizado como parte da finalização do curso, no qual abordamos Media Queries, formulários e estilização de telas. Realizei esse trabalho de forma independente, buscando aprendizado através de minhas anotações no caderno. Neste projeto, dedicamos bastante atenção para torná-lo responsivo em desktop, tablet e mobile. Consegui finalizá-lo com sucesso e o resultado está logo abaixo.*
+
+*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Projeto_Login/"> Executar Projeto LOGIN*
+----
+
+
+#### As linguagens utilizadas no projeto foram: 
+* HTML
+* CSS
+
