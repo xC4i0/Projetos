@@ -63,15 +63,6 @@ main {
 }
 
 
-.couvert-familia {
-    display: flex;
-    flex-direction: column;
-}
-
-.couvert-fml {
-    display: inline-block;
-    margin: auto;
-}
 
 section {
     display: flex;

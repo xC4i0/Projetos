@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 640px) {
+
+    .entradas-saladas{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 10px; 
+    }
+
+    .almoço-executivo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 10px; 
+    }
+
+    section > img {
+        width: 30vw;
+        margin-bottom: 30px;
+    }
+
+    .text-img {
+        width: 25vw;
+        font-size: 60%;
+    }
+
+    .price {
+        font-size: 79%;
+    }
+
+    input[type=button] {
+        height: 30px;
+        width: 150px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
