@@ -58,6 +58,7 @@ main {
     text-align: center;
     font-size: 30px;
     font-weight: 600;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 
@@ -68,14 +69,19 @@ main {
 }
 
 .couvert-fml {
-    display: block;
+    display: inline-block;
     margin: auto;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+}
 
 section > img {
     width: 75vw;
     border-radius: 15px;
+    margin: auto;
 }
 
 .text-img {
@@ -123,41 +129,4 @@ input[type=button] {
 input[type=button]:hover {
     opacity: 0.9;
     cursor: pointer;
-}
-
-.comida-bacalhau {
-    display: flex;
-    flex-direction: column;
-}
-
-.bacalhau {
-    display: block;
-    margin: auto;
-}
-
-.caesar-salada {
-    display: flex;
-    flex-direction: column;
-}
-
-.salada-caesar {
-    margin: auto;
-}
-
-.couvert {
-    display: flex;
-    flex-direction: column;
-}
-
-.solo-couvert {
-    margin: auto;
-}
-
-.carpaccio-prato {
-    display: flex;
-    flex-direction: column;
-}
-
-.carpaccio {
-    margin: auto;
 }
