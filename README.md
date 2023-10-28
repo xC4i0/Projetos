@@ -63,8 +63,6 @@
 * HTML
 * CSS
 
-* 
-
 ## Projeto Cardapio
 ![Githubas](https://github.com/xC4i0/Projetos/assets/128866704/e7230e72-a20b-4e5c-8522-70a10e42249e)
 
