@@ -12,10 +12,10 @@
 ---
 *O projeto "Cordel" foi desenvolvido durante as aulas do CursoemVideo, onde utilizei a técnica parallax para criar efeitos nas imagens de fundo. Além disso, apliquei meus conhecimentos até o momento em design responsivo para tornar o projeto adaptável em diferentes dispositivos.*
 
-*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Cordel_CursoEmVideo/"> Executar Projeto Cordel_CursoEmVideo*
+*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Cordel_CursoEmVideo/" target="_blank"> Executar Projeto Cordel_CursoEmVideo*
 ---
 
-#### As linguagens utilizadas no projeto foram:
+#### Tecnologias utilizadas no projeto: 
 * HTML
 * CSS
 
@@ -28,7 +28,7 @@
 *&#x1F538;<a href="https://xc4i0.github.io/Projetos/Projeto_X-men/"> Executar Projeto X-MEN*
 ---
 
-#### As linguagens utilizadas no projeto foram:
+#### As linguagens e tecnologias utilizadas no projeto foram:
 * HTML
 * CSS
 * JavaScript
@@ -45,7 +45,7 @@
 ---
 
 
-#### As linguagens utilizadas no projeto foram: 
+#### Tecnologias utilizadas no projeto: 
 * HTML
 * CSS
 
@@ -59,7 +59,23 @@
 ----
 
 
-#### As linguagens utilizadas no projeto foram: 
+#### Tecnologias utilizadas no projeto:   
 * HTML
 * CSS
+
+## Projeto Cardapio
+![Githubas](https://github.com/xC4i0/Projetos/assets/128866704/e7230e72-a20b-4e5c-8522-70a10e42249e)
+
+### &#x270D;Descrção
+---
+*Esse projeto foi realizado para aplicar tecnicas responsivas no site, peguei um site de restaurante para trabalhar com imagens dentro do site que são uns dos desafio pra quem estava começando. Eu fiquei orgulhoso do resultado.*
+
+*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Cardapio-Precos/"> Executar Projeto CARDÁPIO*
+----
+
+
+#### Tecnologias utilizadas no projeto: 
+* HTML
+* CSS
+
 
