@@ -12,7 +12,7 @@
 ---
 *O projeto "Cordel" foi desenvolvido durante as aulas do CursoemVideo, onde utilizei a técnica parallax para criar efeitos nas imagens de fundo. Além disso, apliquei meus conhecimentos até o momento em design responsivo para tornar o projeto adaptável em diferentes dispositivos.*
 
-*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Cordel_CursoEmVideo/" target="_blank"> Executar Projeto Cordel_CursoEmVideo*
+*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Cordel_CursoEmVideo" target="_blank"> Executar Projeto Cordel_CursoEmVideo*
 ---
 
 #### Tecnologias utilizadas no projeto: 
