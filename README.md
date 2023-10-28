@@ -72,7 +72,7 @@
 ---
 *Esse projeto foi realizado para aplicar tecnicas responsivas no site, peguei um site de restaurante para trabalhar com imagens dentro do site que são uns dos desafio pra quem estava começando. Eu fiquei orgulhoso do resultado.*
 
-*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Cardapio-Precos/"> Executar Projeto LOGIN*
+*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Cardapio-Precos/"> Executar Projeto CARDÁPIO*
 ----
 
 
