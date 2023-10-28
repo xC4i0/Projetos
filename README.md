@@ -55,7 +55,7 @@
 ---
 *Esse projeto foi realizado como parte da finalização do curso, no qual abordamos Media Queries, formulários e estilização de telas. Realizei esse trabalho de forma independente, buscando aprendizado através de minhas anotações no caderno. Neste projeto, dedicamos bastante atenção para torná-lo responsivo em desktop, tablet e mobile. Consegui finalizá-lo com sucesso e o resultado está logo abaixo.*
 
-*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Projeto_Login/"> Executar Projeto LOGIN*
+*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Projeto_Login/ target="_blank""> Executar Projeto LOGIN*
 ----
 
 
