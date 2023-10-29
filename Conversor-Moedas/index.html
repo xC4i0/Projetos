@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conversor de Moedas</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <script src="script/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,19 +14,19 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="section-main">
             <div>
                 <p class="paragraph">Converter <b>de</b></p>
-                <select name="selection1" id="selection1">
-                    <option class="">R$ Real brasileiro</option>
-                    <option value="">£ Libra</option>
+                <select name="selection1" id="select1">
+                    <option value="real">R$ Real brasileiro</option>
+                    <option value="libra">£ Libra</option>
                 </select>
             </div>
             <div>
                 <p class="paragraph">Converter <b>para</b></p>
-                <select name="selection2" id="selection2">
-                    <option>US$ Dólar americano</option>
-                    <option>R$ Real brasileiro</option>
+                <select name="selection2" id="select2">
+                    <option value="dolar">US$ Dólar americano</option>
+                    <option value="real">R$ Real brasileiro</option>
                 </select>
             </div>
             <div>
@@ -33,7 +34,20 @@
                 <input type="number" name="result" id="result" placeholder="R$ 10.000.00">
             </div>
             <div>
-
+                <input type="button" value="Converter" onclick="result()">
+            </div>
+            <div class="div-result">
+                <div class="currency-inserted">
+                    <img class="bandeira-brasil" src="assets/img/brasil 2.png" alt="Bandeira do Brasil">
+                    <p class="currency-text">Real</p>
+                    <p id="currency-value">R$ 10.000,00</p>
+                </div>
+                 <img class="arrow" src="assets/img/Vector.png" alt="Flecha"> 
+                <div class="currency-result">
+                    <img class="bandeira-EUA" src="assets/img/estados-unidos (1) 1.png" alt="Bandeira dos Estados Unidos">
+                    <p class="currency-text">Dólar Americano</p>
+                    <p class="currency-result-value">US$ 2.000,00</p>
+                </div>
             </div>
         </section>
     </main>
