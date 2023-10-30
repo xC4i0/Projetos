@@ -126,7 +126,7 @@ input[type=button]:active {
     font-weight: 700;
 }
 
-.currency-result-value {
+#currency-result-value {
     color: #555;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -144,3 +144,4 @@ input[type=button]:active {
     height: 44px;
     margin-bottom: -2px
 }
+
