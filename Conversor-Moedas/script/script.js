@@ -11,6 +11,7 @@
 
 const currencyValue = document.getElementById("currency-value")
 const currencyResultValue = document.getElementById("currency-result-value")
+const currencyText = document.getElementById("currency-text")
 const imgValue = document.getElementById("flag")
 const imgResult = document.getElementById("flag-result")
 
@@ -26,18 +27,18 @@ function result() {
     if(currencyConvert == "real" && currencyFor == "dolar") {
         // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat (USADO PARA FORMATAR AS MOEDAS)
         currencyResultValue.innerHTML = new Intl.NumberFormat('en-US', {style: 'currency', currency: 'USD'}).format(currencyInput / currencyDolar) 
-    } else if (currencyConvert == "dolar" && currencyFor == "real") {
-        
-    }
+    } 
 
     if(currencyConvert == "real" && currencyFor == "libra") {
         currencyResultValue.innerHTML = new Intl.NumberFormat('en-GB', {style: 'currency', currency: 'GBP'}).format(currencyInput / currencyLibra)
         imgResult.src = "./assets/img/Paises/libra 1.png"
+        currencyText.innerHTML = "Libra"
     }
 
     if(currencyConvert == "real" && currencyFor == "euro") {
         currencyResultValue.innerHTML = new Intl.NumberFormat('de-DE', {style: 'currency', currency: 'EUR'}).format(currencyInput / currencyEuro)
         imgResult.src = "./assets/img/Paises/euro.png"
+        currencyText.innerHTML = "Euro"
     }
 
     currencyValue.innerHTML  = new Intl.NumberFormat ('pt-BR', {style: 'currency', currency: 'BRL'}).format(currencyInput)
