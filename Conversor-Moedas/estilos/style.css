@@ -119,6 +119,14 @@ input[type=button]:active {
     margin-bottom: 3px;
 }
 
+.currency-text {
+    color: #777;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
 #currency-value {
     color: #555;
     text-align: center;
