@@ -27,6 +27,8 @@ function result() {
     if(currencyConvert == "real" && currencyFor == "dolar") {
         // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat (USADO PARA FORMATAR AS MOEDAS)
         currencyResultValue.innerHTML = new Intl.NumberFormat('en-US', {style: 'currency', currency: 'USD'}).format(currencyInput / currencyDolar) 
+        imgResult.src = "./assets/img/Paises/eua.png"
+        currencyText.innerHTML = "Dólar Americano"
     } 
 
     if(currencyConvert == "real" && currencyFor == "libra") {
