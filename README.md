@@ -77,5 +77,23 @@
 #### Tecnologias utilizadas no projeto: 
 * HTML
 * CSS
+  
+
+* ## Projeto Conversor de Moedas
+![Githubas](https://github.com/xC4i0/Projetos/assets/128866704/a71a614e-abf6-482b-b2dc-5422002ef45b)
+
+
+### &#x270D;Descrção
+---
+*Crie esse projeto para treinar meu Javascript na parte WEB usando o (DOM) foi utilizado tbm (Intl.NumberFormat) para formatar os números de cada país. Fiquei muito empolgado com o resultado porque eu pensei que não estava aprendendo nada de JS. E conseguir replicar esse projeto.*
+
+*&#x1F538;<a href="https://xc4i0.github.io/Projetos/Conversor-Moedas/"> Executar Projeto CONVERSOR*
+----
+
+
+#### Tecnologias e Linguagens utilizadas no projeto: 
+* HTML
+* CSS
+* JavaScript
 
 
